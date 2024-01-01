@@ -7,10 +7,12 @@
     <title>Laravel</title>
 
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+    
 </head>
 <body class="antialiased">
 <div id="app">
     <example-component></example-component>
+    <script src="{{ mix('js/app.js') }}"></script>
 </div>
 </body>
 </html>
